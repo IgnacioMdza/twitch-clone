@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 0px;
+    height: 100%
+}
+
+.channelsContainer {
+    background: rgb(34, 34, 34);
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: white
+}
+
+.channelsContainer h3{
+    padding: 0px;
+    margin: 20px 0px 15px 0px;
+}
+
+.categoriesSection {
+    background: black;
+    width: 82%;
+    padding: 25px;
+    color: rgb(184, 184, 184)
+}
+
+.categoriesSection h3{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(178, 119, 223);
+}
+
+.categoriesContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.channelCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    font-size: 12px;
+    color: rgb(184, 184, 184)
+}
+
+.channelCard:hover {
+    background: rgb(51, 51, 51);
+}
+
+.channelCardStreamer {
+    display: flex;
+}
+
+.channelCardStreamer img{
+    border-radius: 50%;
+    width: 35px;
+}
+
+.channelCardStreamerInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.channelCardStreamerName{
+    font-weight: bold;
+    font-size: 14px;
+    color: white
+}
+
+.channelCardStreamerInfo p{
+    padding: 0;
+    margin: 0 0 0 8px;
+}
+
+.categoryCard img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.newTag{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 45px;
+    text-align: center;
+    background-color: rgb(170, 41, 255);
+    border-radius: 7px;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+}
+
+.categoryCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.categoryCard:hover{
+    border: 8px solid rgb(0, 0, 0);
+}
+
+.categoryCard h4{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.categoryCard p{
+    margin: 0;
+    padding: 0;
+}
+
+.tagsContainer{
+    display: flex;
+    gap: 5px
+}
+
+.tagButton{
+    border-radius: 7px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(226, 226, 226);
+    border: none;
+    font-size: 14px;
+}
